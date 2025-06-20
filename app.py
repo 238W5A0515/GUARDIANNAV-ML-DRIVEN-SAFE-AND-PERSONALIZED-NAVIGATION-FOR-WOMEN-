@@ -28,7 +28,7 @@ filtered_data['Cluster'] = kmeans.fit_predict(coordinates)
 cluster_centers = kmeans.cluster_centers_
 
 # OpenRouteService client setup
-ORS_API_KEY = '##################################'
+ORS_API_KEY = '5b3ce3597851110001cf62488b8e1c3e264b4c7ea1ffa6209115e7a2'
 client = openrouteservice.Client(key=ORS_API_KEY)
 
 # Geolocator setup
